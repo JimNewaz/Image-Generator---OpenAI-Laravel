@@ -15,6 +15,6 @@ use App\Http\Controllers\ImageController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::post('image/', [ImageController::class, 'generate'])->name('image.generate');

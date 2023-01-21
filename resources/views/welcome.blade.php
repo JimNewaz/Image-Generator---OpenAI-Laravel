@@ -32,7 +32,7 @@
                         <select class="form-select @error('size') is-invalid @enderror"
                             aria-label="Default select example" name="size">
                             <option selected>Select the size of the image</option>
-                            <option value="sm">Small</option>
+                            <option value="sm" >Small</option>
                             <option value="md">Medium</option>
                             <option value="lg">Large</option>
                         </select>
