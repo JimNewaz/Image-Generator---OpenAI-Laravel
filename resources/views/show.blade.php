@@ -24,7 +24,7 @@
             </div>
             <hr>
                 <div class="d-flex justify-content-center">
-                    <button class="btn btn-secondary  btn-block me-3" onclick="window.href.load()"> Generate Again </button>
+                    <button class="btn btn-secondary  btn-block me-3 loader" onclick="window.href.load()"> Generate Again </button>
                     
                     <a href="{{ route('welcome') }}" class="btn btn-dark btn-block ms-3" >Back to form</a>
                 </div>  

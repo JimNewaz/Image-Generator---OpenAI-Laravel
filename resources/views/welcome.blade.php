@@ -32,9 +32,9 @@
                         <select class="form-select @error('size') is-invalid @enderror"
                             aria-label="Default select example" name="size">
                             <option selected>Select the size of the image</option>
-                            <option value="sm" >Small</option>
-                            <option value="md">Medium</option>
-                            <option value="lg">Large</option>
+                            <option value="sm" @if (old('size') === 'sm') selected @endif>Small</option>
+                            <option value="md" @if (old('size') === 'md') selected @endif>Medium</option>
+                            <option value="lg" @if (old('size') === 'lg') selected @endif>Large</option>
                         </select>
                         @error('size')
                             <div class="invalid-feedback">
@@ -43,7 +43,7 @@
                         @enderror
                     </div>
 
-                    <button type="" class="btn btn-secondary mt-2 mb-3 w-100">Generate Image</button>
+                    <button type="" class="btn btn-secondary mt-2 mb-3 w-100 loader">Generate Image</button>
                 </form>
             </div>
         </div>
