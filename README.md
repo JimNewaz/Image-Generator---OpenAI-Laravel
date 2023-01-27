@@ -16,7 +16,8 @@
   <a href="#user-guideline">User Guideline</a> •  
 </p>
 
-![Screenshot_20230114_020617](https://user-images.githubusercontent.com/63665452/212410379-3793d41e-5989-4433-8ac2-5bf8c6a8ca14.png)
+![Screenshot 2023-01-27 163633](https://user-images.githubusercontent.com/63665452/215066316-43d8ba24-a92c-4a4e-a4c5-583c8cdc392d.png)
+
 
 ## Project-Requirements
 
@@ -59,41 +60,11 @@ You can [download](https://github.com/JimNewaz/Image-Generator---OpenAI-Laravel.
 
 ## User Guideline
 
-1) Homepage 
-![Screenshot_20230114_020617](https://user-images.githubusercontent.com/63665452/212410443-4bf71242-37db-4bdd-a5e2-04128ad534fa.png)
+1) Insert a text: (i.e A parrot with a cat) 
+2) Generate Image
+![Screenshot 2023-01-27 163836](https://user-images.githubusercontent.com/63665452/215066808-bf19dcfb-b3b0-4db7-80ea-6938809af2f6.png)
+
  
-Admin Login Credentials: 
--> Email: ximnewaz@gmail.com
--> Password: 1234
 
-User Login Credentials: 
--> Email: admin@admin.com
--> Password: password
-
-<hr>
-
-2) Admin Panel
-![image](https://user-images.githubusercontent.com/63665452/212410710-c1d71f10-b043-4491-869b-26f74c078306.png)
-
-
-**Company Table
-![image](https://user-images.githubusercontent.com/63665452/212411039-9db96e6b-7d0c-4a8e-b5f6-3987fa82df07.png)
-
-**Employee Table
-![image](https://user-images.githubusercontent.com/63665452/212411109-c9392f5d-e6d7-4be2-bee8-c21174a522f1.png)
-
-
-3) User Panel 
-![image](https://user-images.githubusercontent.com/63665452/212410858-8ec1b84b-978c-49dd-b8f8-b5a8ac0b2721.png)
-
-
-**Company And Employee Details
-
-![image](https://user-images.githubusercontent.com/63665452/212411217-3f1e3265-28ee-4a56-afeb-d102e472ad38.png)
-![image](https://user-images.githubusercontent.com/63665452/212411267-85fd6d68-ecdf-4e74-ae9a-37ca078d9303.png)
-
-
-
----
 
 
