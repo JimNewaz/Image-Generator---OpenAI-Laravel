@@ -44,8 +44,8 @@ $ git pull https://github.com/JimNewaz/HelloTask-Project-.git
 Open the composer and run 
 
 ```bash
-# Go to hellotask directory
-  cd hellotask
+# Go to image-generator directory
+  cd image-generator
 
 # run application
   php artisan serve
@@ -55,7 +55,7 @@ Open the composer and run
 
 ## Download
 
-You can [download](https://github.com/JimNewaz/HelloTask-Project-) the latest installable version of this project for Windows, macOS and Linux.
+You can [download](https://github.com/JimNewaz/Image-Generator---OpenAI-Laravel.git) the latest installable version of this project for Windows, macOS and Linux.
 
 ## User Guideline
 
