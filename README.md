@@ -1,66 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<h1 align="center">
+  <br>  
+    Image Generator Using OpenAI API & Laravel 9
+  <br>
+</h1>
+
+
+
+
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="#Project-Requirements">Project Requirements</a> •
+  <a href="#installation">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#user-guideline">User Guideline</a> •  
 </p>
 
-## About Laravel
+![Screenshot_20230114_020617](https://user-images.githubusercontent.com/63665452/212410379-3793d41e-5989-4433-8ac2-5bf8c6a8ca14.png)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Project-Requirements
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1) XAMPP (Server) 
+2) PHP 7.4 + 
+3) Bootstrap 5
+4) HTML5, CSS3
+5) Laravel 9
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+To clone and run this application, you'll need [Git](https://git-scm.com) and Composer installed on your computer. From your command line:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+# Clone this repository
+$ git clone https://github.com/JimNewaz/HelloTask-Project-.git
 
-## Laravel Sponsors
+# Pull this repository
+$ git pull https://github.com/JimNewaz/HelloTask-Project-.git
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
 
-### Premium Partners
+Open the composer and run 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```bash
+# Go to hellotask directory
+  cd hellotask
 
-## Contributing
+# run application
+  php artisan serve
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Download
 
-## Security Vulnerabilities
+You can [download](https://github.com/JimNewaz/HelloTask-Project-) the latest installable version of this project for Windows, macOS and Linux.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## User Guideline
 
-## License
+1) Homepage 
+![Screenshot_20230114_020617](https://user-images.githubusercontent.com/63665452/212410443-4bf71242-37db-4bdd-a5e2-04128ad534fa.png)
+ 
+Admin Login Credentials: 
+-> Email: ximnewaz@gmail.com
+-> Password: 1234
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+User Login Credentials: 
+-> Email: admin@admin.com
+-> Password: password
+
+<hr>
+
+2) Admin Panel
+![image](https://user-images.githubusercontent.com/63665452/212410710-c1d71f10-b043-4491-869b-26f74c078306.png)
+
+
+**Company Table
+![image](https://user-images.githubusercontent.com/63665452/212411039-9db96e6b-7d0c-4a8e-b5f6-3987fa82df07.png)
+
+**Employee Table
+![image](https://user-images.githubusercontent.com/63665452/212411109-c9392f5d-e6d7-4be2-bee8-c21174a522f1.png)
+
+
+3) User Panel 
+![image](https://user-images.githubusercontent.com/63665452/212410858-8ec1b84b-978c-49dd-b8f8-b5a8ac0b2721.png)
+
+
+**Company And Employee Details
+
+![image](https://user-images.githubusercontent.com/63665452/212411217-3f1e3265-28ee-4a56-afeb-d102e472ad38.png)
+![image](https://user-images.githubusercontent.com/63665452/212411267-85fd6d68-ecdf-4e74-ae9a-37ca078d9303.png)
+
+
+
+---
+
+
